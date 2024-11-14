@@ -1,11 +1,13 @@
-import { Button } from "@/components/ui/Button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@radix-ui/react-label";
 import { Helmet } from "react-helmet-async";
 import { useForm } from "react-hook-form";
 import { z } from "zod"
 import { toast } from 'sonner'
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/Button";
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const signInForm = z.object({
   email: z.string().email()
 })
@@ -31,6 +33,9 @@ export function SignIn() {
     <>
       <Helmet title='Login' />
       <div className="p-8">
+        <Button asChild variant={"ghost"} className="absolute right-8 top-8">
+          <Link to='/sign-up'>Novo estabelecimento</Link>
+        </Button>
         <div className="flex flex-col justify-center gap-4 w-[350px]">
           <div className="flex flex-col gap-2 text-start">
             <h1 className="text-2xl font-semibold tracking-tight">Acessar painel</h1>
