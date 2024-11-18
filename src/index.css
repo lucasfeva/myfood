@@ -6,8 +6,11 @@
   :root {
     --background: 0 0% 100%;
     --foreground: 0 0% 11%;
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 11%;
+    /* --card: 0 0% 100%;
+    --card-foreground: 0 0% 11%; */
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 26%;
+
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 11%;
     --primary: 277 61% 58%;
@@ -24,11 +27,16 @@
     --input: 0 0% 90%;
     --ring: 277 61% 58%;
     --radius: 0.5rem;
-    --chart-1: 355 77% 59%;
-    --chart-2: 172 86% 31%;
-    --chart-3: 195 65% 28%;
-    --chart-4: 43 100% 67%;
-    --chart-5: 32 100% 56%;
+    /* --chart-1: 258 90% 66%;
+    --chart-2: 252 95% 85%;
+    --chart-3: 251 91% 95%;
+    --chart-4: 220 9% 46%;
+    --chart-5: 218 11% 65%; */
+    --chart-1: 258 90% 66%;
+    --chart-2: 199 89% 48%;
+    --chart-3: 160 84% 39%;
+    --chart-4: 45 93% 47%;
+    --chart-5: 350 89% 60%;
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 0 0% 26%;
     --sidebar-primary: 277 61% 58%;
@@ -44,11 +52,11 @@
   .dark {
     --background: 0 0% 4%;
     --foreground: 0 0% 98%;
-    --card: 0 0% 4%;
-    --card-foreground: 0 0% 98%;
+    --card: 0 0% 9%;
+    --card-foreground: 0 0% 96%;
     --popover: 0 0% 4%;
     --popover-foreground: 0 0% 98%;
-    --primary: 246 91% 61%;
+    --primary: 277 61% 58%;
     --primary-foreground: 0 0% 98%;
     --secondary: 0 0% 15%;
     --secondary-foreground: 0 0% 98%;
@@ -60,20 +68,20 @@
     --destructive-foreground: 208 100% 97%;
     --border: 0 0% 15%;
     --input: 0 0% 15%;
-    --ring: 246 91% 61%;
-    --chart-1: 210 71% 56%;
-    --chart-2: 146 50% 35%;
-    --chart-3: 33 100% 50%;
-    --chart-4: 288 60% 58%;
-    --chart-5: 340 60% 65%;
-    --sidebar-background: 0 0% 10%;
+    --ring: 277 61% 58%;
+    --chart-1: 258 90% 66%;
+    --chart-2: 199 89% 48%;
+    --chart-3: 160 84% 39%;
+    --chart-4: 45 93% 47%;
+    --chart-5: 350 89% 60%;
+    --sidebar-background: 0 0% 9%;
     --sidebar-foreground: 0 0% 96%;
-    --sidebar-primary: 246 91% 61%;
+    --sidebar-primary: 277 61% 58%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 0 0% 15%;
     --sidebar-accent-foreground: 0 0% 96%;
     --sidebar-border: 0 0% 15%;
-    --sidebar-ring: 246 91% 61%;
+    --sidebar-ring: 277 61% 58%;
   }
 }
 
