@@ -1,12 +1,12 @@
 import { CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ChartConfig, ChartContainer, ChartTooltip, ChartTooltipContent } from "@/components/ui/chart"
-import { violet } from "tailwindcss/colors"
+import { rose } from "tailwindcss/colors"
 
 const data = [
   { date: '10/12', revenue: 1320 },
   { date: '11/12', revenue: 1020 },
-  { date: '12/12', revenue: 1260 },
+  { date: '12/12', revenue: 370 },
   { date: '13/12', revenue: 1470 },
   { date: '14/12', revenue: 910 },
   { date: '15/12', revenue: 1630 },
@@ -54,7 +54,7 @@ export function RevenueChart() {
             <Line
               dataKey="revenue"
               type="natural"
-              stroke={violet['500']}
+              stroke={rose['500']}
               strokeWidth={2}
             />
           </LineChart>

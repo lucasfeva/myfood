@@ -39,7 +39,7 @@ export function NavUser({
           </DropdownMenuTrigger>
           <DropdownMenuContent
             className="w-[--radix-dropdown-menu-trigger-width] min-w-56 rounded-lg"
-            side={isMobile ? "bottom" : "right"}
+            side={isMobile ? "bottom" : "top"}
             align="end"
             sideOffset={4}
           >
@@ -57,7 +57,6 @@ export function NavUser({
             </DropdownMenuLabel>
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
-              <ThemeToggle />
               <DropdownMenuItem>
                 <Building />
                 Perfil da loja
@@ -66,6 +65,13 @@ export function NavUser({
                 <LogOut />
                 Sair
               </DropdownMenuItem>
+            </DropdownMenuGroup>
+            <DropdownMenuSeparator />
+            <DropdownMenuLabel className="font-normal text-xs text-muted-foreground">
+              Preferencias
+            </DropdownMenuLabel>
+            <DropdownMenuGroup>
+              <ThemeToggle />
             </DropdownMenuGroup>
           </DropdownMenuContent>
         </DropdownMenu>

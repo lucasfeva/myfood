@@ -2,13 +2,13 @@ import { Sidebar, SidebarContent, SidebarFooter, SidebarHeader, SidebarMenu } fr
 import { NavUser } from "./nav-user"
 import { NavMain } from "./nav-main"
 import { NavSecondary } from "./nav-secundary"
-import { Pizza, Home, UtensilsCrossed, LifeBuoy, Send } from "lucide-react"
+import { Soup, Home, UtensilsCrossed, LifeBuoy, Send } from "lucide-react"
 
 const data = {
   enterprise: {
-    title: "Pizza shop",
+    title: "myFood",
     enterprise: "Nome do estabelecimento",
-    icon: Pizza,
+    icon: Soup,
   },
   user: {
     name: "Lucas Ferreira",
@@ -29,7 +29,7 @@ const data = {
   ],
   navSecondary: [
     {
-      title: "Support",
+      title: "Suporte",
       url: "#",
       icon: LifeBuoy,
     },
