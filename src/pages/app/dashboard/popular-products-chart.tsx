@@ -42,8 +42,7 @@ export function PopularProductsChart() {
               nameKey="product"
               innerRadius={64}
               stroke=""
-              strokeWidth={8}
-              className="stroke-card"
+              strokeWidth={0}
             />
           </PieChart>
         </ChartContainer>

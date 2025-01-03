@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
   {
     path: '/orders', 
     element: <AppLayout />,
-    children: [
+    children: [ 
       {
         path: '/orders', 
         element: <Orders />
